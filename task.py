@@ -49,7 +49,7 @@ def extract_olx(link,current_page,already_data,driver,search_for):
 
 
 app = Flask(__name__)
-connection_url = 'mongodb+srv://tarek:ttffhh2010@cluster0.rsp13ll.mongodb.net/?retryWrites=true&w=majority'
+connection_url = Your mongodb connection
 
 db = MongoEngine()
 db.init_app(app)
